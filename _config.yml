@@ -77,10 +77,12 @@ theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+## master分支 博客源代码: hexo源码, 包括themes, source目录(使用markdown写的博客)
+## develop分支 博客生成代码: hexo clean && hexo g && hexo d 生成的代码, 在public目录
 deploy:
   type: git
   repo: git@gitee.com:clinb/blogs.git
-  branch: master
+  branch: develop
 
 jsonContent:
   meta: false
