@@ -4,11 +4,12 @@
 
 # Site
 title: Clin`s Blog
-subtitle:
-description:
-keywords:
+subtitle: 有梦想的萌新一枚
+description: 好好学习, 天天向上
+keywords: "Java, Scala, 编程, IT"
 author: Clin
 language:
+email: caojialin2017@gmail.com
 timezone:
 
 # URL
