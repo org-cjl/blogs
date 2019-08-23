@@ -23,7 +23,7 @@ before_script:
 
 script:
   - hexo clean # 清除
-  - hexo d -g # 生成
+  - hexo g # 生成
 
 after_script:
   - cd ./public
