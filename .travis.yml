@@ -19,17 +19,18 @@ install:
 
 before_script:
   # 替换同目录下的_config.yml文件中github_token字符串为travis后台刚才配置的变量，注>意此处sed命令用了双引号。单引号无效！
-  - sed -i "s/GH_TOKEN/${GH_TOKEN}/g" _config.yml || exit 1
+  # - sed -i "s/GH_TOKEN/${GH_TOKEN}/g" _config.yml || exit 1
 
 script:
   - hexo clean # 清除
-  - hexo d -g # 生成
+  - hexo g # 生成
 
 after_script:
   - cd ./public
   - git init
   - git config user.name "caojialin" # 修改name
   - git config user.email "caojialin2017@gmail.com" # 修改email
+  - git config core.quotepath false  # 去除引号
   - git add .
   - git commit -m "Travis CI Auto Build"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages # GH_TOKEN是在travis加密github中配置token的secure
