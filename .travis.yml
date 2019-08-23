@@ -19,7 +19,7 @@ install:
 
 script:
   - hexo clean # 清除
-  - hexo g # 生成
+  - hexo d -g # 生成
 
 after_script:
   - cd ./public
