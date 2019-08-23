@@ -6,7 +6,7 @@ toc: true
 title: nvm安装多版本node
 category: Linux & 运维
 tags:
-- Shell
+- Shell命令
 ---
 
 

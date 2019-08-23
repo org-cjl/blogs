@@ -3,10 +3,10 @@ layout: post
 date: 2019-06-05 10:21
 comments: true
 toc: true
-title: shell输出重定向问题
+title: shell输出重定向
 category: Linux & 运维
 tags: 
-- Shell
+- Shell命令
 ---
 
 
