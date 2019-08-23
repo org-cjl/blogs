@@ -4,8 +4,9 @@ date: 2019-06-05 10:21
 comments: true
 toc: true
 title: akka 
+category: Scala & 函数式编程
 tags: 
-- Scala
+- Akka
 ---
 
 # Akka
