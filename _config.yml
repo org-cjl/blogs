@@ -14,7 +14,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://clinb.gitee.io/blogs/
+url: https://org-cjl.github.io/blogs/
 root: /blogs
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,12 +78,12 @@ theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-## source分支 博客源代码: hexo源码, 包括themes, source目录(使用markdown写的博客)
-## develop分支 博客生成代码: hexo clean && hexo g && hexo d 生成的代码, 在public目录
+## blog-source分支 博客源代码: hexo源码, 包括themes, source目录(使用markdown写的博客)
+## gh-pages   分支 博客生成代码: hexo clean && hexo g && hexo d 生成的代码, 在public目录
 deploy:
   type: git
-  repo: git@gitee.com:clinb/blogs.git
-  branch: develop
+  repo: git@github.com:org-cjl/blogs.git
+  branch: blog-source
 
 jsonContent:
   meta: false
