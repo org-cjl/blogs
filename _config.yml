@@ -80,10 +80,11 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 ## blog-source分支 博客源代码: hexo源码, 包括themes, source目录(使用markdown写的博客)
 ## gh-pages   分支 博客生成代码: hexo clean && hexo g && hexo d 生成的代码, 在public目录
-deploy:
-  type: git
-  repo: git@github.com:org-cjl/blogs.git
-  branch: gh-pages
+#下方的GH_TOKEN会被.travis.yml中sed命令替换
+# deploy:
+#   type: git
+#   repo: https://GH_TOKEN@github.com/org-cjl/blogs.git
+#   branch: gh-pages
 
 jsonContent:
   meta: false
