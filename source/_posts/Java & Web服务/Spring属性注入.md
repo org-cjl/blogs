@@ -32,3 +32,5 @@ tags:
   @Value("http://www.baidu.com")
   private Resource testUrl; // 注入URL资源
 ```
+
+<!-- more -->

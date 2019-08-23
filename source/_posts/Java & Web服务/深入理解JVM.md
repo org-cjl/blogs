@@ -15,6 +15,8 @@ tags:
 - [x] [Java 学习/面试指南](https://snailclimb.gitee.io/javaguide/#/)
 - [x] [深入理解JAVA虚拟机: JVM高级特性与最佳实践](https://github.com/doocs/jvm)
 
+<!-- more -->
+
 ## 1. 线程的6种状态
 
 状态名称      | 说明

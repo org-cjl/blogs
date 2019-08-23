@@ -29,3 +29,5 @@ class Pinger extends Actor {
 }
 ```
 
+<!-- more -->
+

@@ -13,6 +13,8 @@ tags:
 
 参考: https://www.cnblogs.com/huanongying/p/7021555.html 
 
+<!-- more -->
+
 > 事务逻辑上的一组操作,组成这组操作的各个逻辑单元,要么一起成功,要么一起失败.
 
 ## 1.事务特性（**_ACID_**）

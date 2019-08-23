@@ -22,6 +22,8 @@ def echo(args: String*) = {
 }
 ```
 
+<!-- more -->
+
 这样定义， echo 可以被零个至多个 String 参数调用
 
 ```scala
