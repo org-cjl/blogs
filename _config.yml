@@ -17,7 +17,7 @@ timezone:
 #url: https://org-cjl.github.io/blogs/
 #root: /blogs
 # 自定义域名
-url: http://blog.clina.top/
+url: https://blog.clina.top/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
