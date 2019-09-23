@@ -14,8 +14,11 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://org-cjl.github.io/blogs/
-root: /blogs
+#url: https://org-cjl.github.io/blogs/
+#root: /blogs
+# 自定义域名
+url: http://blog.clina.top/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
